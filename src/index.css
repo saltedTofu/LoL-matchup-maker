@@ -1,0 +1,156 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212;
+  color:#FFFFFF;
+  overflow-x: hidden;
+}
+button{
+  background-color: #3700B3; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:5px;
+}
+select{
+  background-color: #292929;
+  border: none;
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:5px;
+}
+select:focus, button:focus, textarea:focus{
+    outline: 2px solid #FFFFFF;
+}
+textarea{
+  background-color: #292929;
+  color:#FFFFFF;
+}
+#writeMatchupButton{
+  margin:10px;
+}
+#matchupMaker{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:95%;
+  padding: 20px;
+  background-color: rgba(255,255,255,.05);
+  box-shadow: 5px 5px 5px #121212;
+}
+#viewMatchupContainer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:95%;
+  padding: 20px;
+  margin:20px;
+  background-color: rgba(255,255,255,.05);
+  box-shadow: 5px 5px 5px #121212;
+}
+#selectChampions{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#matchupInfo{
+  display:flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+#matchupInfoPlayer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#matchupInfoEnemy{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#matchupInfoOutput{
+  width:350px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+#cooldownInfo{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:95%;
+  padding: 20px;
+  background-color: rgba(255,255,255,.05);
+  box-shadow: 5px 5px 5px #121212;
+  margin-bottom: 20px;
+}
+#CDSelectAndButton{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#CDOutput{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:fit-content;
+  width:400px;
+}
+.CDandRange{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width:100%
+}
+#difficultySelectContainer{
+  width:200px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #121212; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3700B3; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3700B3; 
+}

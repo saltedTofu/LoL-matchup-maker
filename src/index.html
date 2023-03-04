@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Matchups</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>LoL Match Maker 😘</h1>
+    <div id="matchupMaker">
+      <h2>Create Matchup</h2>
+      <div id="selectChampions">
+        <div id="playerChampionSelectContainer"></div>
+        <h3>vs.</h3>
+        <div id="enemyChampionSelectContainer"></div>
+      </div>
+      <div id="difficultySelectContainer">
+        <h3>Difficulty</h3>
+        <select id="difficultySelect">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+      <textarea id="notes" rows="5" cols="40"></textarea>
+      <button id="writeMatchupButton">Submit</button>
+    </div>
+    <div id="viewMatchupContainer">
+        <h2>View Matchup</h2>
+        <div id="matchupInfo">
+        <div id="matchupInfoPlayer">
+            <button id="loadPlayerChamps">Load Champs</button>
+            <div id="playerViewSelectContainer"></div>
+        </div>
+        <div id="matchupInfoEnemy">
+            <button id="loadEnemyChamps">Load Enemies</button>
+            <div id="enemyViewSelectContainer"></div>
+        </div>
+        </div> 
+        <div id="matchupInfoOutput">
+        <button id="getViewMatchup">Get Matchup</button>
+        <p id="viewDifficulty"></p>
+        <p id="viewNote"></p>
+        </div>
+    </div>
+    <div id="cooldownInfo">
+        <h2>Cooldowns</h2>
+        <div id="CDSelectAndButton">
+            <div id="selectCDContainer">
+            </div>
+            <button id="CDButton">get CDs</button>
+        </div>
+        <div id="CDOutput">
+            <p id="cooldownNote"></p>
+            <p id="passive"></p>
+            <p id="AutoRange"></p>
+            <div class="CDandRange">
+            <p id="Q"></p>
+            <p id="QRange"></p>
+            </div>
+            <div class="CDandRange">
+            <p id="Q2"></p>
+            <p id="Q2Range"></p>
+            </div>
+            <div class="CDandRange">
+            <p id="W"></p>
+            <p id="WRange"></p>
+            </div>
+            <div class="CDandRange">
+            <p id="W2"></p>
+            <p id="W2Range"></p>
+            </div>
+            <div class="CDandRange">
+            <p id="E"></p>
+            <p id="ERange"></p>
+            </div>
+            <div class="CDandRange">
+            <p id="E2"></p>
+            <p id="E2Range"></p>
+            </div>
+            <div class="CDandRange">
+            <p id="R"></p>
+            <p id="RRange"></p> 
+            </div>
+        </div>
+    </div>
+    <script src="./utils/championsArray.js"></script>
+  </body>
+</html>
