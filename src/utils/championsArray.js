@@ -18,7 +18,7 @@ const championsArray = [
     "K'Sante",      'LeBlanc',      'Lee Sin',      'Leona',
     'Lillia',       'Lissandra',    'Lucian',       'Lulu',
     'Lux',          'Malphite',     'Malzahar',     'Maokai',
-    'Master Yi',    'Miss Fortune', 'Mordekaiser',  'Morgana',
+    'Master Yi',    'Milio', 'Miss Fortune', 'Mordekaiser',  'Morgana',
     'Nami',         'Nasus',        'Nautilus',     'Neeko',
     'Nidalee',      'Nilah',        'Nocturne',     'Nunu & Willump',
     'Olaf',         'Orianna',      'Ornn',         'Pantheon',

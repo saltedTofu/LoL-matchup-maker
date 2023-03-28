@@ -1089,6 +1089,20 @@
         "ERange" : null,
         "RRange" : null
     },
+    "Milio":{
+        "championName" : "Milio",
+        "cooldownNote" : "E stores 2 charges with a static cd of 0.5s",
+        "passive" : null,
+        "Q":[12,12,12,12,12],
+        "W":[29,27,25,23,21],
+        "E":[18,17,16,15,14],
+        "R":[160,145,130],
+        "autoRange" : 525,
+        "QRange" : 1000,
+        "WRange" : "650 range, 415 effect radius",
+        "ERange" : 650,
+        "RRange" : 700
+    },
     "Miss Fortune":{
         "championName" : "Miss Fortune",
         "cooldownNote" : null,
