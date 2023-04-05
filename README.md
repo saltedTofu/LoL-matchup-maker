@@ -12,10 +12,9 @@ Download the latest release. The release number matches what patch it is current
 ![create matchup](./createMatchupScreenshot.png)
 ![view matchup and ability info](./viewMatchupAndCooldownsScreenshot.png)
 
-## Contributing
+## Found a bug or incorrect cooldown?
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+Let me know! I'll correct it ASAP. Also feel free to make a pull request.
 
 ## License
 
