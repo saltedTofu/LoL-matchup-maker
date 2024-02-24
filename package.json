@@ -1,7 +1,7 @@
 {
   "name": "lol_matchup_maker",
   "productName": "LoL Matchup Maker",
-  "version": "1.13.7",
+  "version": "1.14.4",
   "description": "app for creating and fetching matchup information and a cooldown reference for league of legends",
   "main": "src/index.js",
   "scripts": {
