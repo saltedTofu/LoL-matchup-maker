@@ -236,6 +236,20 @@
         "ERange" : null,
         "RRange": 1200 
     },
+    "Briar":{
+        "championName" : "Briar",
+        "cooldownNote" : null,
+        "passive" : null,
+        "Q" : [13,12,11,10,9],
+        "W" : [14,13,12,11,10],
+        "E" : [16,16,16,16,16],
+        "R" : [120,100,80],
+        "autoRange" : 125,
+        "QRange" : 400,
+        "WRange" : 1000,
+        "ERange" : "400-600 based on charge time",
+        "RRange": 10000 
+    },
     "Caitlyn":{
         "championName" : "Caitlyn",
         "cooldownNote" : null,
